@@ -1,0 +1,12 @@
+location             = "Central India"
+resource_group_name  = "rg-terraform-assignment"
+environment          = "dev"
+storage_account_name = "tfassignstorage001"
+key_vault_name       = "tf-assignment-kv-001"
+vm_name              = "terraform-vm"
+vm_size              = "Standard_B1s"
+admin_username       = "azureuser"
+aks_name       = "pv-aks"
+aks_dns_prefix = "pv-aks199"
+aks_node_count = 1
+aks_vm_size    = "Standard_B2s"
